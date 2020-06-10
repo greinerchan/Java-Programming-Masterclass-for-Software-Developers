@@ -1,0 +1,23 @@
+int is prime type so cannot int.MIN_VALUE, Integer is a wrapper class so we can!
+MAX_Value + 1 = MIN_Value   overflow!    MIN_Value - 1 = MAX_Value   underflow!
+
+/* primitive */
+
+
+byte 8 bits  
+short 16 bits
+integer 32 bits 
+long depend on system 32 bits or 64 bits
+
+short / 2, divide automatically convert the result to integer, so we need to use casting to convert to the original 
+short(short / 2)
+
+float and double precision type
+
+char 16 bits  unicode charaters
+
+boolean 0/1
+
+String is not primitive, is special class
+
+String char number == integer bits, String is immutable in Java
