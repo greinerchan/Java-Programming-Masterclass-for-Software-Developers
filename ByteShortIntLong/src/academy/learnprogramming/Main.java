@@ -28,5 +28,19 @@ public class Main {
         System.out.println("float:" + floatMin + floatMax);
 
         char charA = 'A';
+        boolean isCar = true;
+        boolean wasCar = isCar ? true:false;
+        if (wasCar){
+            System.out.println(wasCar);
+        }
+        int wasWater = 500;
+        boolean isWater = (wasWater == 200) ? true:false;
+        if (!isWater){
+            System.out.printf("aaa");
+        }
+
+        int test = 100 + 10 * 2;
+        int test2 = 10 * 2 + 100;
+        System.out.println(test2);
     }
 }
